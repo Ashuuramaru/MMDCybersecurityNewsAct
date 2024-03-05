@@ -1,0 +1,1375 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>News HTML-5 Template </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="manifest" href="site.webmanifest">
+		<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+
+		<!-- CSS here -->
+            <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+            <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+            <link rel="stylesheet" href="assets/css/ticker-style.css">
+            <link rel="stylesheet" href="assets/css/flaticon.css">
+            <link rel="stylesheet" href="assets/css/slicknav.css">
+            <link rel="stylesheet" href="assets/css/animate.min.css">
+            <link rel="stylesheet" href="assets/css/magnific-popup.css">
+            <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+            <link rel="stylesheet" href="assets/css/themify-icons.css">
+            <link rel="stylesheet" href="assets/css/slick.css">
+            <link rel="stylesheet" href="assets/css/nice-select.css">
+            <link rel="stylesheet" href="assets/css/style.css">
+            
+            <style>
+.header-area {
+    width: 100%;
+}
+
+.header-area .header-top ul li img {
+    vertical-align: middle;
+}
+
+.header-area .header-bottom {
+    background-color: #fff;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.header-area .header-bottom .header-flex {
+    display: flex;
+    align-items: center;
+}
+
+.header-area .header-bottom .sticky-logo img {
+    max-width: 100px;
+    height: auto;
+}
+
+.header-area .header-bottom .main-menu ul li a {
+    color: #333;
+    padding: 20px 15px;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+.header-area .header-bottom .header-right-btn {
+    position: relative;
+    padding-left: 20px;
+}
+
+.header-area .header-bottom .header-right-btn i {
+    font-size: 20px;
+    cursor: pointer;
+    color: #333;
+    transition: all 0.3s ease-in-out;
+}
+
+.header-area .header-bottom .header-right-btn .search-box {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 200px;
+    background-color: #fff;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    display: none;
+}
+
+.header-area .header-bottom .header-right-btn .search-box input[type="text"] {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+
+/* Mobile Menu */
+@media only screen and (max-width: 767px) {
+    .header-area .header-bottom .header-flex {
+        flex-direction: column;
+    }
+}
+
+/* Weekly News Area Styles */
+.weekly-single .weekly-img img {
+    width: 300px; /* Set a fixed width for the images */
+    height: 500px; /* Set a fixed height for the images */
+    display: block;
+    margin: 0 auto; /* Center the images horizontally */
+}
+
+.weekly-single .weekly-caption {
+    padding: 20px;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.section-tittle {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.weekly-single .weekly-caption .color1 {
+    color: #232222; /* You can change the color to suit your design */
+}
+
+.carousel-indicators .active {
+    background-color: #232222; /* You can change the color to suit your design */
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: auto;
+    background-color: rgba(63, 62, 61, 0.5); /* You can change the color to suit your design */
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #fff; /* You can change the color to suit your design */
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    color: #232222; /* You can change the color to suit your design */
+}
+
+.carousel-control-prev:hover, .carousel-control-next:hover {
+    background-color: rgba(51, 48, 47, 0.9); /* You can change the color to suit your design */
+}
+
+/* Footer Styles */
+.footer-area {
+    padding: 80px 0 30px;
+    background-color: #f9f9f9;
+}
+
+.footer-logo img {
+    max-width: 200px;
+}
+
+.footer-tittle {
+    margin-top: 30px;
+}
+
+.footer-tittle h4 {
+    font-size: 22px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.footer-tittle p {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 0;
+}
+
+.footer-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+}
+
+.footer-form .form-icon {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.instagram-gellay {
+    margin-top: 20px;
+}
+
+.insta-feed li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.insta-feed img {
+    max-width: 50px;
+    border-radius: 5px;
+}
+
+.footer-bottom-area {
+    background-color: #e9e9e9;
+    padding: 15px 0;
+}
+
+.footer-copy-right p {
+    margin: 0;
+    color: #777;
+    font-size: 14px;
+}
+
+.footer-menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footer-menu ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-menu ul li a {
+    color: #777;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.footer-menu ul li:last-child {
+    margin-right: 0;
+}
+
+/* Accordion Styles */
+.accordion-button {
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    text-align: left;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.accordion-button:hover {
+    background-color: #ddd;
+}
+
+/* Style for the accordion body */
+.accordion-body {
+    padding: 10px 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-top: none;
+    overflow: hidden;
+    transition: max-height 0.3s ease; /* Transition for max-height */
+}
+
+/* Styling for the collapsed state */
+.collapsed .accordion-body {
+    max-height: 0;
+}
+
+/* Styling for the expanded state */
+.accordion-button[aria-expanded="true"] + .accordion-body {
+    max-height: 1000px; /* Set a large value to accommodate varying content */
+}
+
+            </style>    
+   </head>
+
+   <body>
+
+    <header>
+        <!-- Header Start -->
+        <div class="header-area">
+            <div class="main-header">
+                <div class="header-top black-bg d-none d-md-block">
+                    <div class="container">
+                        <div class="col-xl-12">
+                            <div class="row d-flex justify-content-between align-items-center">
+                                <div class="header-info-left">
+                                    <ul>
+                                        <li><img src="assets/img/icon/header_icon1.png" alt="">34ºc, Sunny </li>
+                                        <li><img src="assets/img/icon/header_icon1.png" alt="">Tuesday, 18th June, 2019</li>
+                                    </ul>
+                                </div>
+                                <div class="header-info-right">
+                                    <ul class="header-social">
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-mid d-none d-md-block">
+                    <div class="container">
+                        <div class="row d-flex align-items-center">
+                            <!-- Logo -->
+                            <div class="col-xl-3 col-lg-3 col-md-3">
+                                <div class="logo">
+                                    <a href="index.html"><img src="assets/img/logo/logo.png" alt="" width="300px" height="321px"></a>
+                                </div>
+                            </div>
+                            <div class="col-xl-9 col-lg-9 col-md-9">
+                                <div class="header-banner f-right ">
+                                    <img src="assets/img/hero/header2.png" alt="" width="1000px" height="90%">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-bottom header-sticky">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-xl-10 col-lg-10 col-md-12 header-flex">
+                                <!-- sticky -->
+                                <div class="sticky-logo">
+                                    <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                                </div>
+                                <!-- Main-menu -->
+                                <div class="main-menu d-none d-md-block">
+                                    <nav>
+                                        <ul id="navigation">
+                                            <li><a href="index.html">Home</a></li>
+                                            <li><a href="categori.html">Category</a></li>
+                                            <li><a href="about.html">About</a></li>
+                                            <li><a href="latest_news.html">Latest News</a></li>
+                                            <li><a href="contact.html">Contact</a></li>
+                                            <li><a href="#">Pages</a>
+                                                <ul class="submenu">
+                                                    <li><a href="elements.html">Element</a></li>
+                                                    <li><a href="blog.html">Blog</a></li>
+                                                    <li><a href="single-blog.html">Blog Details</a></li>
+                                                    <li><a href="details.html">Category Details</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                            <div class="col-xl-2 col-lg-2 col-md-4">
+                                <div class="header-right-btn f-right d-none d-lg-block">
+                                    <i class="fas fa-search special-tag"></i>
+                                    <div class="search-box">
+                                        <form action="#">
+                                            <input type="text" placeholder="Search">
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Mobile Menu -->
+                            <div class="col-12">
+                                <div class="mobile_menu d-block d-md-none"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Header End -->
+    </header>
+
+    <main>
+    <!-- Trending Area Start -->
+    <div class="trending-area fix">
+        <div class="container">
+            <div class="trending-main">
+                <!-- Trending Tittle -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="trending-tittle">
+                            <strong>Trending now</strong>
+                            <div class="trending-animated">
+                                <ul id="js-news" class="js-hidden">
+                                    <li class="news-item">Bangladesh dolor sit amet, consectetur adipisicing elit.</li>
+                                    <li class="news-item">Spondon IT sit amet, consectetur.......</li>
+                                    <li class="news-item">Rem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8">
+                        <!-- Trending Top -->
+                        <div class="trending-top mb-30">
+                            <div class="trend-top-img">
+                                <img src="assets/img/trending/ai.jpg" alt="">
+                                <div class="trend-top-cap">
+                                    <span>Artificial Intelligence</span>
+                                    <h2><a href="details.html">Harnessing the Power of Artificial Intelligence in Cybersecurity</a></h2>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Trending Bottom -->
+                        <div class="trending-bottom">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                <div class="single-bottom mb-35">
+                                    <div class="trend-bottom-img mb-30">
+                                        <img src="assets/img/trending/trending_bottom1.jpg" alt="">
+                                    </div>
+                                    <div class="trend-bottom-cap">
+                                        <span class="color1">Cybersecurity</span>
+                                        <h4><a href="details.html">Social Engineering: A Threat</a></h4>
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="single-bottom mb-35">
+                                        <div class="trend-bottom-img mb-30">
+                                            <img src="assets/img/trending/mobile.png" alt="">
+                                        </div>
+                                        <div class="trend-bottom-cap">
+                                            <span class="color2">Cybersecurity</span>
+                                            <h4><h4><a href="details.html">Mobile Devices: A Growing Target for Cyber Attacks</a></h4></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="single-bottom mb-35">
+                                        <div class="trend-bottom-img mb-30">
+                                            <img src="assets/img/trending/sca.png" alt="">
+                                        </div>
+                                        <div class="trend-bottom-cap">
+                                            <span class="color3">Dangers</span>
+                                            <h4><a href="details.html">Supply Chain Attacks</a></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Riht content -->
+                    <div class="col-lg-4">
+                        <div class="trand-right-single d-flex">
+                            <div class="trand-right-img">
+                                <img src="assets/img/trending/gpt.png" alt="" width="120px" height="100px">
+                            </div>
+                            <div class="trand-right-cap">
+                                <span class="color1">AI</span>
+                                <h4><a href="details.html">Latest Tech Available</a></h4>
+                            </div>
+                        </div>
+                        <div class="trand-right-single d-flex">
+                            <div class="trand-right-img">
+                                <img src="assets/img/trending/android.png" alt="" width="120px" height="100px">
+                            </div>
+                            <div class="trand-right-cap">
+                                <span class="color3">Android</span>
+                                <h4><a href="details.html">Latest Tech Available</a></h4>
+                            </div>
+                        </div>
+                        <div class="trand-right-single d-flex">
+                            <div class="trand-right-img">
+                                <img src="assets/img/trending/pcspecs.png" alt="" width="120px" height="100px">
+                            </div>
+                            <div class="trand-right-cap">
+                                <span class="color2">PC</span>
+                                <h4><a href="details.html">Latest Tech Available</a></h4>
+                            </div>
+                        </div> 
+                        <div class="trand-right-single d-flex">
+                            <div class="trand-right-img">
+                                <img src="assets/img/trending/ios.png" alt="" width="120px" height="100px">
+                            </div>
+                            <div class="trand-right-cap">
+                                <span class="color4">IOS</span>
+                                <h4><a href="details.html">Latest Tech Available</a></h4>
+                            </div>
+                        </div>
+                        <div class="trand-right-single d-flex">
+                            <div class="trand-right-img">
+                                <img src="assets/img/trending/camera.png" alt="" width="120px" height="100px">
+                            </div>
+                            <div class="trand-right-cap">
+                                <span class="color1">Photography</span>
+                                <h4><a href="details.html">Latest Tech Available</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Trending Area End -->
+    <!--   Weekly-News start -->
+    <div class="weekly-news-area pt-50">
+        <div class="container">
+            <div class="weekly-wrapper">
+                <!-- section Tittle -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-tittle mb-30">
+                            <h3>Weekly Top News</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div id="weeklyNewsCarousel" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#weeklyNewsCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#weeklyNewsCarousel" data-slide-to="1"></li>
+                                <li data-target="#weeklyNewsCarousel" data-slide-to="2"></li>
+                                <li data-target="#weeklyNewsCarousel" data-slide-to="3"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="weekly-single">
+                                        <div class="weekly-img">
+                                            <img src="assets/img/news/weeklyNews2.png" class="d-block w-100" alt="">
+                                        </div>
+                                        <div class="weekly-caption">
+                                            <span class="color1">Cybersecurity</span>
+                                            <h4><a href="#">Lorem Ipsum</a></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="weekly-single">
+                                        <div class="weekly-img">
+                                            <img src="assets/img/news/weeklyNews1.png" class="d-block w-100" alt="">
+                                        </div>
+                                        <div class="weekly-caption">
+                                            <span class="color1">Cybersecurity</span>
+                                            <h4><a href="#">Lorem Ipsum</a></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="weekly-single">
+                                        <div class="weekly-img">
+                                            <img src="assets/img/news/weeklyNews3.png" class="d-block w-100" alt="">
+                                        </div>
+                                        <div class="weekly-caption">
+                                            <span class="color1">Cybersecurity</span>
+                                            <h4><a href="#">Lorem Ipsum</a></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="weekly-single">
+                                        <div class="weekly-img">
+                                            <img src="assets/img/news/weeklyNews1.png" class="d-block w-100" alt="">
+                                        </div>
+                                        <div class="weekly-caption">
+                                            <span class="color1">Cybersecurity</span>
+                                            <h4><a href="#">Lorem Ipsum</a></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#weeklyNewsCarousel" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#weeklyNewsCarousel" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>     
+    <!-- End Weekly-News -->
+   <!-- Whats New Start -->
+    <section class="whats-news-area pt-50 pb-20">
+        <div class="container">
+            <div class="row">
+            <div class="col-lg-8">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-lg-3 col-md-3">
+                        <div class="section-tittle mb-30">
+                            <h3>Whats New</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-md-9">
+                        <div class="properties__button">
+                            <!--Nav Button  -->                                            
+                            <nav>                                                                     
+                                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                    <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">All</a>
+                                    <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Cybersecurity</a>
+                                    <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Android</a>
+                                    <a class="nav-item nav-link" id="nav-last-tab" data-toggle="tab" href="#nav-last" role="tab" aria-controls="nav-contact" aria-selected="false">IOS</a>
+                                    <a class="nav-item nav-link" id="nav-Sports" data-toggle="tab" href="#nav-nav-Sport" role="tab" aria-controls="nav-contact" aria-selected="false">PC</a>
+                                    <a class="nav-item nav-link" id="nav-technology" data-toggle="tab" href="#nav-techno" role="tab" aria-controls="nav-contact" aria-selected="false">AI</a>
+                                </div>
+                            </nav>
+                            <!--End Nav Button  -->
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <!-- Nav Card -->
+                        <div class="tab-content" id="nav-tabContent">
+                            <!-- card one -->
+                            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">           
+                                <div class="whats-news-caption">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="single-what-news mb-100">
+                                                <div class="what-img">
+                                                    <img src="assets/img/news/whatNews1.png" alt="">
+                                                </div>
+                                                <div class="what-cap">
+                                                    <span class="color1">Cybersecurity</span>
+                                                    <h4><a href="#">Lorem Ipsum</a></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="single-what-news mb-100">
+                                                <div class="what-img">
+                                                    <img src="assets/img/news/whatNews2.png" alt="">
+                                                </div>
+                                                <div class="what-cap">
+                                                    <span class="color1">Cybersecurity</span>
+                                                    <h4><a href="#">Lorem Ipsum</a></h4>
+                                                </div>
+                                            </div>
+                                        </div> 
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="single-what-news mb-100">
+                                                <div class="what-img">
+                                                    <img src="assets/img/news/whatNews3.png" alt="">
+                                                </div>
+                                                <div class="what-cap">
+                                                    <span class="color1">Cybersecurity</span>
+                                                    <h4><a href="#">Lorem Ipsum</a></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="single-what-news mb-100">
+                                                <div class="what-img">
+                                                    <img src="assets/img/news/whatNews4.png" alt="">
+                                                </div>
+                                                <div class="what-cap">
+                                                    <span class="color1">Cybersecurity</span>
+                                                    <h4><a href="#">Lorem Ipsum</a></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Card two -->
+                            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                <div class="whats-news-caption">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="single-what-news mb-100">
+                                                <div class="what-img">
+                                                    <img src="assets/img/news/whatNews1.jpg" alt="">
+                                                </div>
+                                                <div class="what-cap">
+                                                    <span class="color1">Night party</span>
+                                                    <h4><a href="#">Lorem Ipsum</a></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="single-what-news mb-100">
+                                                <div class="what-img">
+                                                    <img src="assets/img/news/whatNews2.jpg" alt="">
+                                                </div>
+                                                <div class="what-cap">
+                                                    <span class="color1">Night party</span>
+                                                    <h4><a href="#">Lorem Ipsum</a></h4>
+                                                </div>
+                                            </div>
+                                        </div> 
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="single-what-news mb-100">
+                                                <div class="what-img">
+                                                    <img src="assets/img/news/whatNews3.jpg" alt="">
+                                                </div>
+                                                <div class="what-cap">
+                                                    <span class="color1">Night party</span>
+                                                    <h4><a href="#">Lorem Ipsum</a></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="single-what-news mb-100">
+                                                <div class="what-img">
+                                                    <img src="assets/img/news/whatNews4.jpg" alt="">
+                                                </div>
+                                                <div class="what-cap">
+                                                    <span class="color1">Night party</span>
+                                                    <h4><a href="#">Lorem Ipsum</a></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Card three -->
+                            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                                <div class="whats-news-caption">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="single-what-news mb-100">
+                                                <div class="what-img">
+                                                    <img src="assets/img/news/whatNews1.jpg" alt="">
+                                                </div>
+                                                <div class="what-cap">
+                                                    <span class="color1">Night party</span>
+                                                    <h4><a href="#">Lorem Ipsum</a></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="single-what-news mb-100">
+                                                <div class="what-img">
+                                                    <img src="assets/img/news/whatNews2.jpg" alt="">
+                                                </div>
+                                                <div class="what-cap">
+                                                    <span class="color1">Night party</span>
+                                                    <h4><a href="#">Lorem Ipsum</a></h4>
+                                                </div>
+                                            </div>
+                                        </div> 
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="single-what-news mb-100">
+                                                <div class="what-img">
+                                                    <img src="assets/img/news/whatNews3.jpg" alt="">
+                                                </div>
+                                                <div class="what-cap">
+                                                    <span class="color1">Night party</span>
+                                                    <h4><a href="#">Lorem Ipsum</a></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="single-what-news mb-100">
+                                                <div class="what-img">
+                                                    <img src="assets/img/news/whatNews4.jpg" alt="">
+                                                </div>
+                                                <div class="what-cap">
+                                                    <span class="color1">Night party</span>
+                                                    <h4><a href="#">Lorem Ipsum</a></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- card fure -->
+                            <div class="tab-pane fade" id="nav-last" role="tabpanel" aria-labelledby="nav-last-tab">
+                                <div class="whats-news-caption">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="single-what-news mb-100">
+                                                <div class="what-img">
+                                                    <img src="assets/img/news/whatNews1.jpg" alt="">
+                                                </div>
+                                                <div class="what-cap">
+                                                    <span class="color1">Night party</span>
+                                                    <h4><a href="#">Lorem Ipsum</a></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="single-what-news mb-100">
+                                                <div class="what-img">
+                                                    <img src="assets/img/news/whatNews2.jpg" alt="">
+                                                </div>
+                                                <div class="what-cap">
+                                                    <span class="color1">Night party</span>
+                                                    <h4><a href="#">Lorem Ipsum</a></h4>
+                                                </div>
+                                            </div>
+                                        </div> 
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="single-what-news mb-100">
+                                                <div class="what-img">
+                                                    <img src="assets/img/news/whatNews3.jpg" alt="">
+                                                </div>
+                                                <div class="what-cap">
+                                                    <span class="color1">Night party</span>
+                                                    <h4><a href="#">Lorem Ipsum</a></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="single-what-news mb-100">
+                                                <div class="what-img">
+                                                    <img src="assets/img/news/whatNews4.jpg" alt="">
+                                                </div>
+                                                <div class="what-cap">
+                                                    <span class="color1">Night party</span>
+                                                    <h4><a href="#">Lorem Ipsum</a></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- card Five -->
+                            <div class="tab-pane fade" id="nav-nav-Sport" role="tabpanel" aria-labelledby="nav-Sports">
+                                <div class="whats-news-caption">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="single-what-news mb-100">
+                                                <div class="what-img">
+                                                    <img src="assets/img/news/whatNews1.jpg" alt="">
+                                                </div>
+                                                <div class="what-cap">
+                                                    <span class="color1">Night party</span>
+                                                    <h4><a href="#">Lorem Ipsum</a></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="single-what-news mb-100">
+                                                <div class="what-img">
+                                                    <img src="assets/img/news/whatNews2.jpg" alt="">
+                                                </div>
+                                                <div class="what-cap">
+                                                    <span class="color1">Night party</span>
+                                                    <h4><a href="#">Lorem Ipsum</a></h4>
+                                                </div>
+                                            </div>
+                                        </div> 
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="single-what-news mb-100">
+                                                <div class="what-img">
+                                                    <img src="assets/img/news/whatNews3.jpg" alt="">
+                                                </div>
+                                                <div class="what-cap">
+                                                    <span class="color1">Night party</span>
+                                                    <h4><a href="#">Lorem Ipsum</a></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="single-what-news mb-100">
+                                                <div class="what-img">
+                                                    <img src="assets/img/news/whatNews4.jpg" alt="">
+                                                </div>
+                                                <div class="what-cap">
+                                                    <span class="color1">Night party</span>
+                                                    <h4><a href="#">Lorem Ipsum</a></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- card Six -->
+                            <div class="tab-pane fade" id="nav-techno" role="tabpanel" aria-labelledby="nav-technology">
+                                <div class="whats-news-caption">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="single-what-news mb-100">
+                                                <div class="what-img">
+                                                    <img src="assets/img/news/whatNews1.jpg" alt="">
+                                                </div>
+                                                <div class="what-cap">
+                                                    <span class="color1">Night party</span>
+                                                    <h4><a href="#">Lorem Ipsum</a></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="single-what-news mb-100">
+                                                <div class="what-img">
+                                                    <img src="assets/img/news/whatNews2.jpg" alt="">
+                                                </div>
+                                                <div class="what-cap">
+                                                    <span class="color1">Night party</span>
+                                                    <h4><a href="#">Lorem Ipsum</a></h4>
+                                                </div>
+                                            </div>
+                                        </div> 
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="single-what-news mb-100">
+                                                <div class="what-img">
+                                                    <img src="assets/img/news/whatNews3.jpg" alt="">
+                                                </div>
+                                                <div class="what-cap">
+                                                    <span class="color1">Night party</span>
+                                                    <h4><a href="#">Lorem Ipsum</a></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="single-what-news mb-100">
+                                                <div class="what-img">
+                                                    <img src="assets/img/news/whatNews4.jpg" alt="">
+                                                </div>
+                                                <div class="what-cap">
+                                                    <span class="color1">Night party</span>
+                                                    <h4><a href="#">Lorem Ipsum</a></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <!-- End Nav Card -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <!-- Section Tittle -->
+                <div class="section-tittle mb-40">
+                    <h3>Follow Us</h3>
+                </div>
+                <div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="successModalLabel">Success!</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                You have successfully followed!
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+                <!-- Flow Socail -->
+                <div class="single-follow mb-45">
+                    <div class="single-box">
+                        <div class="follow-us d-flex align-items-center">
+                            <div class="follow-social">
+                                <a href="#"><img src="assets/img/news/icon-fb.png" alt=""></a>
+                            </div>
+                            <div class="follow-count">  
+                                <span>8,045</span>
+                                <p>Fans</p>
+                            </div>
+                        </div> 
+                        <div class="follow-us d-flex align-items-center">
+                            <div class="follow-social">
+                                <a href="#"><img src="assets/img/news/icon-tw.png" alt=""></a>
+                            </div>
+                            <div class="follow-count">
+                                <span>8,045</span>
+                                <p>Fans</p>
+                            </div>
+                        </div>
+                            <div class="follow-us d-flex align-items-center">
+                            <div class="follow-social">
+                                <a href="#"><img src="assets/img/news/icon-ins.png" alt=""></a>
+                            </div>
+                            <div class="follow-count">
+                                <span>8,045</span>
+                                <p>Fans</p>
+                            </div>
+                        </div>
+                        <div class="follow-us d-flex align-items-center">
+                            <div class="follow-social">
+                                <a href="#"><img src="assets/img/news/icon-yo.png" alt=""></a>
+                            </div>
+                            <div class="follow-count">
+                                <span>8,045</span>
+                                <p>Fans</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- New Poster -->
+                <div class="news-poster d-none d-lg-block">
+                    <img src="assets/img/news/news_card.png" alt="">
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <!-- Whats New End -->
+    <!--   Weekly2-News start -->
+    <div class="weekly2-news-area  weekly2-pading gray-bg">
+        <div class="container">
+            <div class="weekly2-wrapper">
+                <!-- section Tittle -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-tittle mb-30">
+                            <h3>Weekly Top News</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="weekly2-news-active dot-style d-flex dot-style">
+                            <div class="weekly2-single">
+                                <div class="weekly2-img">
+                                    <img src="assets/img/news/weekly2News1.png" alt="">
+                                </div>
+                                <div class="weekly2-caption">
+                                    <span class="color1">Corporate</span>
+                                    <p>25 Jan 2020</p>
+                                    <h4><a href="#">Lorem Ipsum</a></h4>
+                                </div>
+                            </div> 
+                            <div class="weekly2-single">
+                                <div class="weekly2-img">
+                                    <img src="assets/img/news/weekly2News2.png" alt="">
+                                </div>
+                                <div class="weekly2-caption">
+                                    <span class="color1">Event night</span>
+                                    <p>25 Jan 2020</p>
+                                    <h4><a href="#">Lorem Ipsum</a></h4>
+                                </div>
+                            </div> 
+                            <div class="weekly2-single">
+                                <div class="weekly2-img">
+                                    <img src="assets/img/news/weekly2News3.png" alt="">
+                                </div>
+                                <div class="weekly2-caption">
+                                    <span class="color1">Corporate</span>
+                                    <p>25 Jan 2020</p>
+                                    <h4><a href="#">Lorem Ipsum</a></h4>
+                                </div>
+                            </div>
+                             <div class="weekly2-single">
+                                <div class="weekly2-img">
+                                    <img src="assets/img/news/weekly2News4.png" alt="">
+                                </div>
+                                <div class="weekly2-caption">
+                                    <span class="color1">Event time</span>
+                                    <p>25 Jan 2020</p>
+                                    <h4><a href="#">Lorem Ipsum</a></h4>
+                                </div>
+                            </div> 
+                             <div class="weekly2-single">
+                                <div class="weekly2-img">
+                                    <img src="assets/img/news/weekly2News4.png" alt="">
+                                </div>
+                                <div class="weekly2-caption">
+                                    <span class="color1">Corporate</span>
+                                    <p>25 Jan 2020</p>
+                                    <h4><a href="#">Lorem Ipsum</a></h4>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>           
+    <!-- End Weekly-News -->
+    <!-- Start Youtube -->
+    <div class="youtube-area video-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="video-items-active">
+                        <div class="video-items text-center">
+                            <iframe src="https://www.youtube.com/embed/CicQIuG8hBo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-items text-center">
+                            <iframe  src="https://www.youtube.com/embed/rIz00N40bag" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-items text-center">
+                            <iframe src="https://www.youtube.com/embed/CONfhrASy44" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                        </div>
+                        <div class="video-items text-center">
+                            <iframe src="https://www.youtube.com/embed/lq6fL2ROWf8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                         
+                        </div>
+                        <div class="video-items text-center">
+                            <iframe src="https://www.youtube.com/embed/0VxlQlacWV4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-info">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="video-caption">
+                            <div class="top-caption">
+                                <span class="color1">Cybersecurity</span>
+                            </div>
+                            <div class="bottom-caption">
+                                <h2>Lorem Ipsum</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod ipsum dolor sit. Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod ipsum dolor sit. Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod ipsum dolor sit lorem ipsum dolor sit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="testmonial-nav text-center">
+                            <div class="single-video">
+                                <iframe  src="https://www.youtube.com/watch?v=Yr0xPVFcf-U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <div class="video-intro">
+                                    <h4>Lorem Ipsum</h4>
+                                </div>
+                            </div>
+                            <div class="single-video">
+                                <iframe  src="https://www.youtube.com/embed/rIz00N40bag" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <div class="video-intro">
+                                    <h4>Lorem Ipsum</h4>
+                                </div>
+                            </div>
+                            <div class="single-video">
+                                <iframe src="https://www.youtube.com/watch?v=inWWhr5tnEA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <div class="video-intro">
+                                    <h4>Lorem Ipsum</h4>
+                                </div>
+                            </div>
+                            <div class="single-video">
+                                <iframe src="https://www.youtube.com/watch?v=hXSFdwIOfnE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <div class="video-intro">
+                                    <h4>Lorem Ipsum</h4>
+                                </div>
+                            </div>
+                            <div class="single-video">
+                                <iframe src="https://www.youtube.com/watch?v=EKdZutMkmTE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <div class="video-intro">
+                                    <h4>Lorem Ipsum</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <!-- End Start youtube -->
+    <!--  Recent Articles start -->
+    <div class="recent-articles">
+        <div class="container">
+           <div class="recent-wrapper">
+                <!-- section Tittle -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-tittle mb-30">
+                            <h3>Recent Articles</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="recent-active dot-style d-flex dot-style">
+                            <div class="single-recent mb-100">
+                                <div class="what-img">
+                                    <img src="assets/img/news/recent1.png" alt="">
+                                </div>
+                                <div class="what-cap">
+                                    <span class="color1">Cybersecurity</span>
+                                    <h4><a href="#">Lorem Ipsum</a></h4>
+                                </div>
+                            </div>
+                            <div class="single-recent mb-100">
+                                <div class="what-img">
+                                    <img src="assets/img/news/recent2.png" alt="">
+                                </div>
+                                <div class="what-cap">
+                                    <span class="color1">Cybersecurity</span>
+                                    <h4><a href="#">Lorem Ipsum</a></h4>
+                                </div>
+                            </div>
+                            <div class="single-recent mb-100">
+                                <div class="what-img">
+                                    <img src="assets/img/news/recent3.png" alt="">
+                                </div>
+                                <div class="what-cap">
+                                    <span class="color1">Cybersecurity</span>
+                                    <h4><a href="#">Lorem Ipsum</a></h4>
+                                </div>
+                            </div>
+                            <div class="single-recent mb-100">
+                                <div class="what-img">
+                                    <img src="assets/img/news/recent2.png" alt="">
+                                </div>
+                                <div class="what-cap">
+                                    <span class="color1">Cybersecurity</span>
+                                    <h4><a href="#">Lorem Ipsum</a></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           </div>
+        </div>
+    </div>           
+    <!--Recent Articles End -->
+    <!--Start pagination -->
+    <div class="pagination-area pb-45 text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="single-wrap d-flex justify-content-center">
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination justify-content-start">
+                              <li class="page-item"><a class="page-link" href="#"><span class="flaticon-arrow roted"></span></a></li>
+                                <li class="page-item active"><a class="page-link" href="#">01</a></li>
+                                <li class="page-item"><a class="page-link" href="#">02</a></li>
+                                <li class="page-item"><a class="page-link" href="#">03</a></li>
+                              <li class="page-item"><a class="page-link" href="#"><span class="flaticon-arrow right-arrow"></span></a></li>
+                            </ul>
+                          </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End pagination  -->
+    </main>
+    
+    <footer>
+        <!-- Footer Start-->
+        <div class="footer-area footer-padding fix">
+            <div class="container">
+                <div class="accordion" id="footerAccordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                About Us
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-parent="#footerAccordion">
+                            <div class="accordion-body">
+                                <p>Suscipit mauris pede for con sectetuer sodales adipisci for cursus fames lectus tempor da blandit gravida sodales  Suscipit mauris pede for con sectetuer sodales adipisci for cursus fames lectus tempor da blandit gravida sodales  Suscipit mauris pede for sectetuer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Newsletter
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-parent="#footerAccordion">
+                            <div class="accordion-body">
+                                <p>Heaven fruitful doesn't over les idays appear creeping</p>
+                                <!-- Form -->
+                                <form id="subscribeForm" class="subscribe_form relative mail_part">
+                                    <input type="email" name="email" id="newsletter-form-email" placeholder="Email Address" class="placeholder hide-on-focus" onfocus="this.placeholder = ''" onblur="this.placeholder = ' Email Address '">
+                                    <button type="button" id="subscribeButton" class="email_icon newsletter-submit button-contactForm">Follow</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Modal -->
+                    <div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="successModalLabel">Success!</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    You have successfully followed!
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add more accordion items as needed -->
+                </div>
+            </div>
+        </div>
+        <!-- Footer End-->
+    </footer>        
+   
+	<!-- JS here -->
+	
+		<!-- All JS Custom Plugins Link Here here -->
+        <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
+		<!-- Jquery, Popper, Bootstrap -->
+		<script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
+        <script src="./assets/js/popper.min.js"></script>
+        <script src="./assets/js/bootstrap.min.js"></script>
+	    <!-- Jquery Mobile Menu -->
+        <script src="./assets/js/jquery.slicknav.min.js"></script>
+
+		<!-- Jquery Slick , Owl-Carousel Plugins -->
+        <script src="./assets/js/owl.carousel.min.js"></script>
+        <script src="./assets/js/slick.min.js"></script>
+        <!-- Date Picker -->
+        <script src="./assets/js/gijgo.min.js"></script>
+		<!-- One Page, Animated-HeadLin -->
+        <script src="./assets/js/wow.min.js"></script>
+		<script src="./assets/js/animated.headline.js"></script>
+        <script src="./assets/js/jquery.magnific-popup.js"></script>
+
+        <!-- Breaking New Pluging -->
+        <script src="./assets/js/jquery.ticker.js"></script>
+        <script src="./assets/js/site.js"></script>
+
+		<!-- Scrollup, nice-select, sticky -->
+        <script src="./assets/js/jquery.scrollUp.min.js"></script>
+        <script src="./assets/js/jquery.nice-select.min.js"></script>
+		<script src="./assets/js/jquery.sticky.js"></script>
+        
+        <!-- contact js -->
+        <script src="./assets/js/contact.js"></script>
+        <script src="./assets/js/jquery.form.js"></script>
+        <script src="./assets/js/jquery.validate.min.js"></script>
+        <script src="./assets/js/mail-script.js"></script>
+        <script src="./assets/js/jquery.ajaxchimp.min.js"></script>
+        
+		<!-- Jquery Plugins, main Jquery -->	
+        <script src="./assets/js/plugins.js"></script>
+        <script src="./assets/js/main.js"></script>
+
+        <!-- Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+    const accordionItems = document.querySelectorAll(".accordion-button");
+
+    accordionItems.forEach((item) => {
+        item.addEventListener("click", function () {
+            const collapse = this.getAttribute("data-target");
+            const parent = this.getAttribute("data-parent");
+
+            const targetCollapse = document.querySelector(collapse);
+            const parentAccordion = document.querySelector(parent);
+
+            // Collapse all accordion items
+            const collapses = parentAccordion.querySelectorAll(".collapse");
+            collapses.forEach((collapse) => {
+                if (collapse !== targetCollapse) {
+                    collapse.classList.remove("show");
+                }
+            });
+
+            // Toggle the target accordion item
+            targetCollapse.classList.toggle("show");
+        });
+    });
+});
+
+    </script>
+    <script>
+        document.querySelectorAll('.follow-social a').forEach(function(link) {
+    link.addEventListener('click', function(event) {
+        event.preventDefault();
+        $('#successModal').modal('show'); // Show the success modal when a social media icon is clicked
+    });
+});
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+    document.getElementById('subscribeButton').addEventListener('click', function () {
+        $('#successModal').modal('show'); // Show the success modal
+    });
+});
+    </script>
+    </body>
+</html>
